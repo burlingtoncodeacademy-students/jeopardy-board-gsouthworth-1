@@ -4,10 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
     <title>Jeopardy</title>
   </head>
   <body>
-    <h1>Round One</h1>
+    <h1 class="roundTitle">First Round</h1>
+    <p class="p">Player Turn</p>
+
+    <div class="gameGrid">
+            <div class="Category">Category</div>
+            <div class="Category">Category</div>
+            <div class="Category">Category</div>
+            <div class="Category">Category</div>
+            <div class="Category">Category</div>
+            <div class="Category">Category</div>  
+
+            <div class="point-button">$200</div>
+            <div class="point-button">$200</div>
+            <div class="point-button">$200</div>
+            <div class="point-button">$200</div>
+            <div class="point-button">$200</div>
+            <div class="point-button">$200</div>
+
+            <div class="point-button">$400</div>
+            <div class="point-button">$400</div>
+            <div class="point-button">$400</div>
+            <div class="point-button">$400</div>
+            <div class="point-button">$400</div>
+            <div class="point-button">$400</div>
+
+            <div class="point-button">$600</div>
+            <div class="point-button">$600</div>
+            <div class="point-button">$600</div>
+            <div class="point-button">$600</div>
+            <div class="point-button">$600</div>
+            <div class="point-button">$600</div>
+
+            <div class="point-button">$800</div>
+            <div class="point-button">$800</div>
+            <div class="point-button">$800</div>
+            <div class="point-button">$800</div>
+            <div class="point-button">$800</div>
+            <div class="point-button">$800</div>
+        
+            <div class="point-button">$1000</div>
+            <div class="point-button">$1000</div>
+            <div class="point-button">$1000</div>
+            <div class="point-button">$1000</div>
+            <div class="point-button">$1000</div>
+            <div class="point-button">$1000</div>
+        </div>
+    </div>
+
+    <div class="input">
+        <input id="guess-box" type="text" placeholder="Your guess here">
+    </div>
+    
+    <div id="options">
+        <ul>
+            <li><a class="optionbtn" href="#">Guess</a></li>
+            <li><a class="optionbtn" href="#">Pass</a></li>
+        </ul>
+    </div>
+
+    <div class="score">
+        <div id="player1">Player 1 Score: 0</div>
+        <div id="player2">Player 2 Score: 0</div>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="next-div">
+        <a id="nextbtn" href="./round-2.html">Next Round</a>
+    </div>
+    
+    <br>
+
+    <div class="footer">
+        <p>Gavin's Game Company, LLC | All Rights Reserved | &copy; 2022</p> 
+    </div>
     <!-- Do not change the script source. Allows import/export to work. -->
     <script src="./scripts/index.js" type="module"></script>
   </body>
